@@ -1,0 +1,11 @@
+questions:
+  - variable: namespace
+    default: "csi-wekafsplugin"
+    required: true
+    label: Target namespace
+    group: "Global Settings"
+  - variable: dynamicProvisionPath
+    default: "csi-volumes"
+    required: false
+    label: Path for creation of dynamic volumes (relative to filesystem root)
+    group: "Global Settings"
